@@ -1,0 +1,80 @@
+body {
+    background-color: lightblue;
+}
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 84%;
+    height: 30px;
+    margin: 1vh;
+    padding: 1vh;
+    background-color: #60A0B0;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: .5rem;   
+}
+#menu .men{
+    font-size: x-large;
+}
+#menu a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+.cosas {
+    width: 100%;
+}
+#zona-encabezado {
+    border-radius: .5rem;
+    margin: .5rem;
+    width: 85%;
+    color: #634258;
+    background-color: #60A0B0;
+}
+h1 {
+    font-family: one piece;
+    font-size: 4rem;
+    filter: drop-shadow(0 0 10px rgba(104, 104, 104, 0.8));
+}
+#zona-imagen {
+    width: 85%;
+    background-color: #60a0b0;
+    text-align: center;
+    margin: .5rem;       
+    border-radius: .5rem;  
+}
+img {
+    margin: 10px;
+    height: 200px;
+    border-radius: 1em;
+    transition: transform .25s ease;
+    z-index: 1;
+    position: relative;
+}
+img:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+.chopper {
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, .8));
+}
+#op {
+    box-shadow: 0 0px 30px 0 rgba(0, 0, 0, .8);
+}
+#zona-cuerpo {
+    border-radius: .5rem;
+    margin: .5rem;
+    width: 85%;
+    color: #9AD1AA;
+    background-color: #6D6087;
+}
+
+#zona-final {
+    border-radius: .5rem;
+    margin: .5rem;
+    width: 85%;
+    color: #634258;
+    background-color: #9AD1AA;
+    font-size: 12pt;
+}
